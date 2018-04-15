@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation "com.google.dagger:dagger-spi:2.15"
+    implementation "com.google.auto.service:auto-service:1.0-rc4"
+    implementation "com.google.guava:guava:23.3-jre"
+    implementation "com.squareup:javapoet:1.10.0"
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
